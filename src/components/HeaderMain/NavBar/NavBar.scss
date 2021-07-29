@@ -1,0 +1,24 @@
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    padding-top: 91px;
+}
+
+.nav-item {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;
+}
+
+.nav-item:not(:last-child) {
+    padding-right: 128px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}

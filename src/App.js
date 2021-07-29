@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import NavBar from './components/HeaderMain/NavBar/NavBar';
+import Logo from './components/HeaderMain/Logo/Logo';
+import Header from './components/HeaderMain/Header/Header';
+import Scroll from "./components/HeaderMain/Scroll/Scroll";
+import Social from "./components/HeaderMain/Social/Social";
+import WeAre from "./components/WeAreMain/WeAre/WeAre";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = "mom">
+      <div className = "container">
+        <div className = "header-container">
+            <NavBar />
+            <Social />
+            <Logo />
+            <Header />
+            <Scroll />
+        </div>
+      </div>
+        <div className="we-are-container">
+            <WeAre />
+        </div>
     </div>
   );
 }
