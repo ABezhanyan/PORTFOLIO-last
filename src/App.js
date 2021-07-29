@@ -8,6 +8,7 @@ import Scroll from "./components/HeaderMain/Scroll/Scroll";
 import Social from "./components/HeaderMain/Social/Social";
 import WeAre from "./components/WeAreMain/WeAre/WeAre";
 import WeAreText from "./components/WeAreMain/WeAreText/WeAreText";
+import SkillsAre from "./components/SkillsAre/SkillsAre";
 
 const App = () => {
   return (
@@ -24,6 +25,9 @@ const App = () => {
         <div className="we-are-container">
             <WeAre />
             <WeAreText />
+        </div>
+        <div>
+            <SkillsAre />
         </div>
     </div>
   );

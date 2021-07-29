@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>file_type_angular</title><polygon points="16 2 16 2 16 2 2.966 6.648 4.954 23.882 16 30 16 30 16 30 27.046 23.882 29.034 6.648 16 2" style="fill:#dd0031"/><polygon points="16 2 16 5.108 16 5.094 16 19.276 16 19.276 16 30 16 30 27.046 23.882 29.034 6.648 16 2" style="fill:#c3002f"/><path d="M16,5.094,7.852,23.364H10.89l1.638-4.088h6.916l1.638,4.088H24.12L16,5.094Zm2.38,11.662H13.62L16,11.03Z" style="fill:#fff"/></svg>
+<svg width="354" height="343" viewBox="0 0 354 343" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f)">
+<rect x="20.3223" y="20" width="313.025" height="302.372" rx="91" fill="black"/>
+</g>
+<defs>
+<filter id="filter0_f" x="0.322266" y="0" width="353.025" height="342.372" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
+</filter>
+</defs>
+</svg>
