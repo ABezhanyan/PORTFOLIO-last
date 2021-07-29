@@ -1,3 +1,8 @@
+
+* {
+  margin: 0;
+}
+
 .container {
   max-width: 100%;
   width: 1920px;
@@ -11,11 +16,13 @@
   max-width: 100%;
   width: 1920px;
   justify-content: center;
-  height: 1205px;
+  height: 1215px;
 }
 
 .we-are-container {
-  margin: 0;
+  display: flex;
+  width: 80%;
+  margin: auto;
   height: 1415px;
   background-color: #F3F3F3;
   background-image: url("/src/imgResume/We are.svg");
@@ -27,8 +34,7 @@
 .mom {
   width: 1920px;
   max-width: 100%;
-  background-color: red;
-  padding: 0;
+  background-color: #F3F3F3;
 }
 
 

@@ -1,0 +1,24 @@
+.we-are-text {
+  background: rgba(255, 255, 255, 0.76);
+  border-radius: 88px;
+  margin-left: 68px;
+  margin-bottom: 127px;
+  margin-top: 162px;
+}
+
+.we-are-text__par {
+  position: static;
+  font-family: Playfair Display;
+  padding-left: 105px;
+  padding-right: 105px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+
+}
+
+.we-are-text__par:not(:last-child) {
+  padding-top: 129px;
+  padding-bottom: 40px;
+}
