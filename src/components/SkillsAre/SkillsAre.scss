@@ -1,21 +1,20 @@
 .swiper-container {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  height: 981px;
+  background: linear-gradient(to top, #0828B6 50%, #F3F3F3 50%);
 }
 
-.swiper-slide {
-  width: 300px;
-  height: 300px;
+.skills-are-container {
+
 }
 
 .pop {
-  max-width: 300px;
+  padding-top: 100px;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 .img-sl {
-  width: 300px;
-  height: 300px;
   align-items: center;
 }
 
@@ -23,4 +22,16 @@
 .swiper-slide img {
   display: block;
   width: 100%;
+}
+
+.skills-are {
+  width: 80%;
+  margin: auto;
+}
+
+.skills-are-text {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 110px;
 }
