@@ -26,10 +26,10 @@ import "swiper/components/thumbs/thumbs.min.css";
 
 
 // import Swiper core and required modules
-import SwiperCore, { EffectCoverflow, Pagination } from "swiper/core";
+import SwiperCore, { EffectCoverflow } from "swiper/core";
 
 // install Swiper modules
-SwiperCore.use([EffectCoverflow, Pagination]);
+SwiperCore.use([EffectCoverflow]);
 
 const SkillsAre = () => {
     return (
@@ -48,7 +48,7 @@ const SkillsAre = () => {
                 coverflowEffect={{
                     rotate: 10,
                     stretch: 10,
-                    depth: 100,
+                    depth: 300,
                     modifier: 1,
                     slideShadows: false,
 
