@@ -24,7 +24,6 @@ body {
   width: 1920px;
   justify-content: center;
   height: 1215px;
-  border: 1px solid red;
 }
 
 .we-are-container {
@@ -36,7 +35,6 @@ body {
   background-image: url("/src/imgResume/We are.svg");
   background-repeat: no-repeat;
   background-position: center;
-  border: 1px solid red;
 }
 
 .work-container {
@@ -44,7 +42,6 @@ body {
   width: 80%;
   margin: auto;
   background-color: #F3F3F3;
-  border: 1px solid red;
 }
 
 

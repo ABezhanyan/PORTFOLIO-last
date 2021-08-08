@@ -11,10 +11,22 @@
 }
 
 .burger-container {
-  margin-top: 212px;
+  margin-top: 150px;
   height: auto;
   margin-right: 30px;
   margin-left: 10px;
+}
+
+.work-text {
+  font-family: Montserrat;
+  position: absolute;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 110px;
+  text-align: center;
+  left: 1390.02px;
+  top: 3920px;
+  color: #323232;
 }
 
 .burger_one {
@@ -57,4 +69,29 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.W {
+  position: absolute;
+  left: 805px;
+  top: 3941px;
+}
+
+.O {
+  position: absolute;
+  left: 1156px;
+  top: 3947px;
+}
+
+.R {
+  position: absolute;
+  left: 1215px;
+  top: 4182px;
+}
+
+.K {
+  position: absolute;
+  left: 1452px;
+  top: 4042px;
 }

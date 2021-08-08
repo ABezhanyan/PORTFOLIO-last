@@ -2,10 +2,14 @@ import './BurgerMain.scss'
 import '../CarMain/CarMain.scss'
 import '../GoldMain/GoldMain.scss'
 import '../GameMain/GameMain.scss'
-import Burger from '../../../imgResume/burger.png'
+import Burger from '../../../imgResume/burger.png';
 import Car from "../../../imgResume/car.png";
-import Gold from "../../../imgResume/Gold.png"
-import Game from "../../../imgResume/game.png"
+import Gold from "../../../imgResume/Gold.png";
+import Game from "../../../imgResume/game.png";
+import W from "../../../imgResume/w.svg";
+import O from "../../../imgResume/o.svg";
+import R from "../../../imgResume/r.svg";
+import K from "../../../imgResume/k.svg";
 
 const BurgerMain = () => {
     return (
@@ -45,6 +49,21 @@ const BurgerMain = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="W">
+                <img src={W} className="W-icon" alt="W"/>
+            </div>
+            <div className="O">
+                <img src={O} className="O-icon" alt="O"/>
+            </div>
+            <div className="R">
+                <img src={R} className="R-icon" alt="R"/>
+            </div>
+            <div className="K">
+                <img src={K} className="K-icon" alt="K"/>
+            </div>
+            <div className="work-text">
+                <p>Work</p>
             </div>
         </div>
     );
