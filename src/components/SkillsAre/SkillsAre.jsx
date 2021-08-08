@@ -7,7 +7,7 @@ import HTML from '../../imgResume/HTML5.svg'
 import VUE from  '../../imgResume/VUE.svg'
 import NodeJS from '../../imgResume/NodeJS.svg'
 import GIT from '../../imgResume/git.svg'
-import CSS from '../../imgResume/CSS.svg'
+import CSS from '../../imgResume/css.svg'
 import Angular from '../../imgResume/Angular.svg'
 
 // Import Swiper styles

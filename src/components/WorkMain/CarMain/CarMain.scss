@@ -1,0 +1,53 @@
+.car-header {
+  margin : 10px; /* устанавливаем величину внешнего отступа для всех сторон элемента */
+  width: 305.01px;
+  height: 305.01px;
+  background: #000000;
+  display : inline-block; /* устанавливаем элементы <div> как блочно-строчные (выстраиваем в линейку) */
+  text-align : center; /* выравниваем текст по центру */
+  line-height: 100px;  /* устанавливаем высоту строки равную высоте элемента */
+  border-radius: 69px;
+  transition : .3s linear;  /* устанавливаем длительность переходного эффекта 0.3 секунды с одинаковой скоростью от начала до конца */
+  -moz-transition : .3s linear;  /* для поддержки ранних версий браузеров */
+  -webkit-transition : .3s linear;  /* для поддержки ранних версий браузеров */
+}
+
+.car-container {
+  margin-top: 460px;
+  height: auto;
+}
+
+.car_one {
+  width: 305.01px;
+  height: 305.01px; /* устанавливаем высоту блока */
+  background: #000000;
+  box-shadow: 0px 0px 30px 2px rgba(196, 196, 196, 0.5);
+  border-radius: 69px;
+  position: relative;
+  margin: auto;
+}
+
+.car_one:hover {
+  -o-transform: translate(-20px, 20px);
+  -ms-transform: translate(-20px, 20px);
+  -moz-transform: translate(-20px, 20px);
+  -webkit-transform: translate(-20px, 20px);
+  transform: translate(-20px, 20px);
+}
+
+.car_two {
+  width: 305.01px;
+  height: 305.01px; /* устанавливаем высоту блока */
+  background: #000000;
+  box-shadow: 0px 0px 30px 2px rgba(196, 196, 196, 0.5);
+  border-radius: 69px;
+  position: absolute;
+  right:20px;
+  top:20px;
+}
+
+.car {
+  width: 330px;
+  height: 280px;
+  padding-top: 20px;
+}

@@ -1,9 +1,16 @@
 
 * {
   margin: 0;
+  padding: 0;
 }
 
-.container {
+body {
+  position: relative;
+  width: 100%;
+  height: 100vw;
+}
+
+.container-main {
   max-width: 100%;
   width: 1920px;
   background-color: #F3F3F3;
@@ -17,6 +24,7 @@
   width: 1920px;
   justify-content: center;
   height: 1215px;
+  border: 1px solid red;
 }
 
 .we-are-container {
@@ -28,6 +36,15 @@
   background-image: url("/src/imgResume/We are.svg");
   background-repeat: no-repeat;
   background-position: center;
+  border: 1px solid red;
+}
+
+.work-container {
+  height: 1486px;
+  width: 80%;
+  margin: auto;
+  background-color: #F3F3F3;
+  border: 1px solid red;
 }
 
 
@@ -39,6 +56,5 @@
 
 
 
-.content {
 
-}
+

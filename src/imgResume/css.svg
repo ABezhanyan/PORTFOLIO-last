@@ -1,13 +1,13 @@
-<svg width="353" height="368" viewBox="0 0 353 368" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="333" height="348" viewBox="0 0 333 348" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g filter="url(#filter0_f)">
-<rect x="20" y="20" width="313" height="328" rx="91" fill="black"/>
+<path d="M10 101C10 50.7421 50.7421 10 101 10H232C282.258 10 323 50.7421 323 101V247C323 297.258 282.258 338 232 338H101C50.7421 338 10 297.258 10 247V101Z" fill="black"/>
 </g>
-<rect x="99" y="96" width="153.289" height="175" fill="url(#pattern0)"/>
+<rect x="89" y="86" width="153.289" height="175" fill="url(#pattern0)"/>
 <defs>
-<filter id="filter0_f" x="0" y="0" width="353" height="368" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_f" x="0" y="0" width="333" height="348" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
+<feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur"/>
 </filter>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(0.00795441 -0.241576) scale(0.00107296 0.000953289)"/>

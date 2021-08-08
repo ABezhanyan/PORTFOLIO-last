@@ -9,11 +9,13 @@ import Social from "./components/HeaderMain/Social/Social";
 import WeAre from "./components/WeAreMain/WeAre/WeAre";
 import WeAreText from "./components/WeAreMain/WeAreText/WeAreText";
 import SkillsAre from "./components/SkillsAre/SkillsAre";
+import BurgerMain from "./components/WorkMain/BurgerMain/BurgerMain";
+import GoldMain from "./components/WorkMain/CarMain/CarMain";
 
 const App = () => {
   return (
     <div className = "mom">
-      <div className = "container">
+      <div className = "container-main">
         <div className = "header-container">
             <NavBar />
             <Social />
@@ -26,8 +28,11 @@ const App = () => {
             <WeAre />
             <WeAreText />
         </div>
-        <div>
+        <div className="skills-are-container">
             <SkillsAre />
+        </div>
+        <div className="work-container">
+            <BurgerMain />
         </div>
     </div>
   );
