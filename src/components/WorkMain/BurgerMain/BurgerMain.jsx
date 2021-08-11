@@ -10,6 +10,8 @@ import W from "../../../imgResume/w.svg";
 import O from "../../../imgResume/o.svg";
 import R from "../../../imgResume/r.svg";
 import K from "../../../imgResume/k.svg";
+import {NavLink} from "react-router-dom";
+
 
 const BurgerMain = () => {
     return (
@@ -18,7 +20,9 @@ const BurgerMain = () => {
                 <div className="burger-header">
                     <div className="burger_one">
                         <div className="burger_two">
-                            <img src={Burger} alt="burger" className="burger"/>
+                            <NavLink to="/BurgerSlider">
+                                <img src={Burger} alt="burger" className="burger"/>
+                            </NavLink>
                         </div>
                     </div>
                 </div>
@@ -27,7 +31,9 @@ const BurgerMain = () => {
                 <div className="car-header">
                     <div className="car_one">
                         <div className="car_two">
-                            <img src={Car} alt="car" className="car"/>
+                            <NavLink to="/BurgerSlider">
+                                <img src={Car} alt="car" className="car"/>
+                            </NavLink>
                         </div>
                     </div>
                 </div>
@@ -36,7 +42,9 @@ const BurgerMain = () => {
                 <div className="gold-header">
                     <div className="gold_one">
                         <div className="gold_two">
-                            <img src={Gold} alt="gold" className="gold"/>
+                            <NavLink to="/BurgerSlider">
+                                <img src={Gold} alt="gold" className="gold"/>
+                            </NavLink>
                         </div>
                     </div>
                 </div>
@@ -45,7 +53,9 @@ const BurgerMain = () => {
                 <div className="game-header">
                     <div className="game_one">
                         <div className="game_two">
-                            <img src={Game} alt="game" className="game"/>
+                            <NavLink to="/BurgerSlider">
+                                <img src={Game} alt="game" className="game"/>
+                            </NavLink>
                         </div>
                     </div>
                 </div>

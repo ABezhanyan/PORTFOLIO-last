@@ -53,7 +53,7 @@ const SkillsAre = () => {
                     slideShadows: false,
 
                 }}
-                pagination={true}
+                pagination={false}
                 className="mySwiper"
             >
                 <SwiperSlide className = "pop">

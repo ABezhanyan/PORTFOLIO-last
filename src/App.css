@@ -38,9 +38,10 @@ body {
 }
 
 .work-container {
-  height: 1486px;
+  height: auto;
   width: 80%;
   margin: auto;
+
   background-color: #F3F3F3;
 }
 

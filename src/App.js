@@ -11,30 +11,36 @@ import WeAreText from "./components/WeAreMain/WeAreText/WeAreText";
 import SkillsAre from "./components/SkillsAre/SkillsAre";
 import BurgerMain from "./components/WorkMain/BurgerMain/BurgerMain";
 import GoldMain from "./components/WorkMain/CarMain/CarMain";
+import BurgerSlider from "./components/WorkMain/BurgerSlider/BurgerSlider";
+import {Route} from "react-router";
+import {BrowserRouter} from "react-router-dom";
 
 const App = () => {
   return (
-    <div className = "mom">
-      <div className = "container-main">
-        <div className = "header-container">
-            <NavBar />
-            <Social />
-            <Logo />
-            <Header />
-            <Scroll />
+      <BrowserRouter>
+        <div className = "mom">
+          <div className = "container-main">
+            <div className = "header-container">
+                <NavBar />
+                <Social />
+                <Logo />
+                <Header />
+                <Scroll />
+            </div>
+          </div>
+            <div className="we-are-container">
+                <WeAre />
+                <WeAreText />
+            </div>
+            <div className="skills-are-container">
+                <SkillsAre />
+            </div>
+            <div className="work-container">
+                <Route path='/BurgerSlider' component={BurgerSlider} />
+                <Route path='/Home' component={BurgerMain} />
+            </div>
         </div>
-      </div>
-        <div className="we-are-container">
-            <WeAre />
-            <WeAreText />
-        </div>
-        <div className="skills-are-container">
-            <SkillsAre />
-        </div>
-        <div className="work-container">
-            <BurgerMain />
-        </div>
-    </div>
+      </BrowserRouter>
   );
 }
 
