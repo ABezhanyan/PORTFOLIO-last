@@ -44,7 +44,7 @@ const BurgerSlider = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className = "BugSlide">
-                        <a className="back-burger" href=""><img src={Back} className="back-img"/></a>
+                        <NavLink className="back-burger" to="/Home"><img src={Back} className="back-img"/></NavLink>
                         <div className="bug-slide-one">
                             <div className="bug-head-icon">
                                 <h2 className="burger-text">McDonald’s</h2>
@@ -59,7 +59,7 @@ const BurgerSlider = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className = "BugSlide">
-                        <a className="back-burger" href=""><img src={Back} className="back-img"/></a>
+                        <NavLink className="back-burger" to="/Home"><img src={Back} className="back-img"/></NavLink>
                         <div className="bug-slide-one">
                             <div className="bug-head-icon">
                                 <h2 className="burger-text">McDonald’s</h2>
@@ -74,7 +74,7 @@ const BurgerSlider = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className = "BugSlide">
-                        <a className="back-burger" href=""><img src={Back} className="back-img"/></a>
+                        <NavLink className="back-burger" to="/Home"><img src={Back} className="back-img"/></NavLink>
                         <div className="bug-slide-one">
                             <div className="bug-head-icon">
                                 <h2 className="burger-text">McDonald’s</h2>
@@ -89,7 +89,7 @@ const BurgerSlider = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className = "BugSlide">
-                        <a className="back-burger" href=""><img src={Back} className="back-img"/></a>
+                        <NavLink className="back-burger" to="/Home"><img src={Back} className="back-img"/></NavLink>
                         <div className="bug-slide-one">
                             <div className="bug-head-icon">
                                 <h2 className="burger-text">McDonald’s</h2>
@@ -104,7 +104,7 @@ const BurgerSlider = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className = "BugSlide">
-                        <a className="back-burger" href=""><img src={Back} className="back-img"/></a>
+                        <NavLink className="back-burger" to="/Home"><img src={Back} className="back-img"/></NavLink>
                         <div className="bug-slide-one">
                             <div className="bug-head-icon">
                                 <h2 className="burger-text">McDonald’s</h2>
@@ -119,7 +119,7 @@ const BurgerSlider = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className = "BugSlide">
-                        <a className="back-burger" href=""><img src={Back} className="back-img"/></a>
+                        <NavLink className="back-burger" to="/Home"><img src={Back} className="back-img"/></NavLink>
                         <div className="bug-slide-one">
                             <div className="bug-head-icon">
                                 <h2 className="burger-text">McDonald’s</h2>
@@ -134,7 +134,7 @@ const BurgerSlider = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className = "BugSlide">
-                        <a className="back-burger" href=""><img src={Back} className="back-img"/></a>
+                        <NavLink className="back-burger" to="/Home"><img src={Back} className="back-img"/></NavLink>
                         <div className="bug-slide-one">
                             <div className="bug-head-icon">
                                 <h2 className="burger-text">McDonald’s</h2>
@@ -149,7 +149,7 @@ const BurgerSlider = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className = "BugSlide">
-                        <a className="back-burger" href=""><img src={Back} className="back-img"/></a>
+                        <NavLink className="back-burger" to="/Home"><img src={Back} className="back-img"/></NavLink>
                         <div className="bug-slide-one">
                             <div className="bug-head-icon">
                                 <h2 className="burger-text">McDonald’s</h2>
