@@ -11,18 +11,26 @@ import O from "../../../imgResume/o.svg";
 import R from "../../../imgResume/r.svg";
 import K from "../../../imgResume/k.svg";
 import {NavLink} from "react-router-dom";
+import {Link} from "react-scroll"
 
 
 const BurgerMain = () => {
     return (
-        <div className="grid">
+        <div className="grid" id="work">
             <div className="burger-container">
                 <div className="burger-header">
                     <div className="burger_one">
                         <div className="burger_two">
-                            <NavLink to="/BurgerSlider">
-                                <img src={Burger} alt="burger" className="burger"/>
-                            </NavLink>
+                            <Link activeClass="active"
+                                  to="slider"
+                                  spy={true}
+                                  smooth={true}
+                                  offset={-70}
+                                  duration={1000}>
+                                <NavLink to="/BurgerSlider">
+                                        <img src={Burger} alt="burger" className="burger"/>
+                                </NavLink>
+                            </Link>
                         </div>
                     </div>
                 </div>

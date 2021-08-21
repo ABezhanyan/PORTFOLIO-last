@@ -14,8 +14,9 @@
     color: #000000;
 }
 
+
 .nav-item:not(:last-child) {
-    padding-right: 128px;
+    margin-right: 128px;
 }
 
 ul {
@@ -23,3 +24,34 @@ ul {
     margin: 0px;
     list-style: none;
 }
+
+.nav-item a {
+    display: inline-block;
+    color: #000000;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+.nav-item a:after {
+    display: block;
+    content: "";
+    background-color: #0828B6;
+    height: 6px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.nav-item a:hover:after,
+.nav-item a:focus:after {
+    width: 100%;
+}
+
+
+
