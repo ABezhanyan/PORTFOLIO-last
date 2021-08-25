@@ -4,3 +4,59 @@
   margin-top: 150px;
   border-radius: 50px 50px 0px 0px;
 }
+
+.contact-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 85px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 65px;
+
+}
+
+.contact-border {
+  border-bottom: #0828B6 6px solid;
+}
+
+.contact-button {
+  background: #0828B6;
+  border-radius: 50px 50px 50px 50px;
+  width: 510px;
+  height: 152px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 98px;
+  text-align: center;
+  color: #FFFFFF;
+  align-items: center;
+  margin-left: 690px;
+  margin-top: 100px;
+}
+
+button {
+
+  border: white;
+
+  /* отображаем курсор в виде руки при наведении; некоторые
+  считают, что необходимо оставлять стрелочный вид для кнопок */
+  cursor: pointer;
+}
+
+.social-container {
+  display: flex;
+  margin-top: 66px;
+}
+
+.nav-social-contact {
+  display: flex;
+  margin: auto;
+}
+
+.nav-item-social-contact:not(:last-child) {
+  margin-right: 130px;
+}
