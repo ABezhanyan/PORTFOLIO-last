@@ -53,5 +53,19 @@ ul {
     width: 100%;
 }
 
+@media (max-width: 1440px) {
+    .nav-item {
+        font-size: 32px;
+        line-height: 43px;
+    }
+
+    .nav-item:not(:last-child) {
+        margin-right: 90px;
+    }
+
+    .nav-list {
+        padding-top: 71px;
+    }
+}
 
 

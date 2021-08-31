@@ -115,3 +115,72 @@
   width: 190px;
   height: 190px;
 }
+
+@media (max-width: 1440px) {
+  .burger_one {
+    width: 400px;
+    height: 400px;
+  }
+
+  .burger_two {
+    width: 400px;
+    height: 400px;
+  }
+
+  .burger {
+    height: 320px;
+    width: 380px;
+  }
+
+  .W {
+    position: absolute;
+    left: 615px;
+    top: 2670px;
+  }
+
+  .W-icon {
+    width: 220px;
+    height: 220px;
+  }
+
+  .O {
+    position: absolute;
+    left: 863.99px;
+    top: 2700px;
+  }
+
+  .O-icon {
+    width: 176.9px;
+    height: 183.7px;
+  }
+
+  .R {
+    position: absolute;
+    left: 900px;
+    top: 2880px;
+  }
+
+  .R-icon {
+    width: 160px;
+    height: 160px;
+  }
+
+  .K {
+    position: absolute;
+    left: 1070px;
+    top: 2840px;
+  }
+
+  .K-icon {
+    width: 170px;
+    height: 170px;
+  }
+
+  .work-text {
+    left: 1040.89px;
+    top: 2720px;
+    font-size: 70px;
+    line-height: 85px;
+  }
+
+}

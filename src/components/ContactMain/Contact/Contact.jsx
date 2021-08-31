@@ -18,19 +18,29 @@ const Contact = ({ id }) => {
                 <nav className="social-container">
                     <ul className="nav-social-contact">
                         <li className="nav-item-social-contact">
-                            <img src={insta} alt="inst" className=""/>
+                            <a href="">
+                                <img src={insta} alt="inst" className="q"/>
+                            </a>
                         </li>
                         <li className="nav-item-social-contact">
-                            <img src={Git} alt="inst" className=""/>
+                            <a href="">
+                                <img src={Git} alt="inst" className="q"/>
+                            </a>
                         </li>
                         <li className="nav-item-social-contact">
-                            <img src={Telegram} alt="inst" className=""/>
+                            <a href="">
+                                <img src={Telegram} alt="inst" className="q"/>
+                            </a>
                         </li>
                         <li className="nav-item-social-contact">
-                            <img src={Phone} alt="inst" className=""/>
+                            <a href="">
+                                <img src={Phone} alt="inst" className="q"/>
+                            </a>
                         </li>
                         <li className="nav-item-social-contact">
-                            <img src={Email} alt="inst" className=""/>
+                            <a href="">
+                                <img src={Email} alt="inst" className="q"/>
+                            </a>
                         </li>
                     </ul>
                 </nav>

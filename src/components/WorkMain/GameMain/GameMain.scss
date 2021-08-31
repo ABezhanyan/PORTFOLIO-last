@@ -52,3 +52,31 @@
 .game {
   padding-top: 40px;
 }
+
+@media (max-width: 1440px) {
+  .game-container {
+    left: 916px;
+    top: 3030px;
+  }
+
+  .game-header {
+    width: 341.61px;
+    height: 432.24px;
+  }
+
+  .game_one {
+    width: 341.61px;
+    height: 432.24px;
+  }
+
+  .game_two {
+    width: 341.61px;
+    height: 432.24px;
+  }
+
+  .game {
+    width: 300px;
+    height: 300px;
+  }
+
+}

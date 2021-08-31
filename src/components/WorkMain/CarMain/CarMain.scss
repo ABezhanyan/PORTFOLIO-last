@@ -51,3 +51,25 @@
   height: 280px;
   padding-top: 20px;
 }
+
+@media (max-width: 1440px) {
+  .car_one {
+    width: 233px;
+    height: 233px;
+  }
+
+  .car_two {
+    width: 233px;
+    height: 233px;
+  }
+
+  .car-header {
+    width: 233px;
+    height: 233px;
+  }
+
+  .car {
+    width: 250px;
+    height: 180px;
+  }
+}
