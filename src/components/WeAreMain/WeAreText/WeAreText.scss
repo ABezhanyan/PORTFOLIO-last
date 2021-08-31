@@ -22,3 +22,27 @@
   padding-top: 129px;
   padding-bottom: 40px;
 }
+
+@media (max-width: 1440px) {
+  .we-are-text {
+    background: rgba(255, 255, 255, 0.76);
+    border-radius: 88px;
+    margin-left: 40px;
+    margin-bottom: 125px;
+    margin-top: 120px;
+    margin-right: 200px;
+  }
+
+  .we-are-text__par {
+    font-size: 20px;
+    line-height: 27px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .we-are-text__par:not(:last-child) {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+
+}

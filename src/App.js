@@ -1,4 +1,3 @@
-
 import './App.css';
 import  './index.css'
 import NavBar from './components/HeaderMain/NavBar/NavBar';
@@ -14,34 +13,36 @@ import GoldMain from "./components/WorkMain/CarMain/CarMain";
 import BurgerSlider from "./components/WorkMain/BurgerSlider/BurgerSlider";
 import {Route} from "react-router";
 import {BrowserRouter} from "react-router-dom";
+import Contact from "./components/ContactMain/Contact/Contact";
 
 const App = () => {
-  return (
-      <BrowserRouter>
-        <div className = "mom">
-          <div className = "container-main">
-            <div className = "header-container">
-                <NavBar />
-                <Social />
-                <Logo />
-                <Header />
-                <Scroll />
+    return (
+        <BrowserRouter>
+            <div className = "mom">
+                <div className = "container-main">
+                    <div className = "header-container">
+                        <NavBar />
+                        <Social />
+                        <Logo />
+                        <Header />
+                        <Scroll />
+                    </div>
+                </div>
+                <div className="we-are-container">
+                    <WeAre />
+                    <WeAreText />
+                </div>
+                <div className="skills-are-container">
+                    <SkillsAre />
+                </div>
+                <div className="work-container" id="work">
+                    <Route path='/BurgerSlider' component={BurgerSlider} />
+                    <Route exact   path='/' component={BurgerMain} />
+                </div>
+                <Contact id="contact"/>
             </div>
-          </div>
-            <div className="we-are-container">
-                <WeAre />
-                <WeAreText />
-            </div>
-            <div className="skills-are-container">
-                <SkillsAre />
-            </div>
-            <div className="work-container">
-                <Route path='/BurgerSlider' component={BurgerSlider} />
-                <Route path='/Home' component={BurgerMain} />
-            </div>
-        </div>
-      </BrowserRouter>
-  );
+        </BrowserRouter>
+    );
 }
 
 export default App;

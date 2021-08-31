@@ -1,7 +1,7 @@
 .car-header {
   margin : 10px; /* устанавливаем величину внешнего отступа для всех сторон элемента */
-  width: 305.01px;
-  height: 305.01px;
+  width: 350px;
+  height: 270px;
   background: #000000;
   display : inline-block; /* устанавливаем элементы <div> как блочно-строчные (выстраиваем в линейку) */
   text-align : center; /* выравниваем текст по центру */
@@ -13,13 +13,13 @@
 }
 
 .car-container {
-  margin-top: 400px;
+  margin-top: 260px;
   height: auto;
 }
 
 .car_one {
-  width: 305.01px;
-  height: 305.01px; /* устанавливаем высоту блока */
+  width: 350px;
+  height: 270px; /* устанавливаем высоту блока */
   background: #000000;
   box-shadow: 0px 0px 30px 2px rgba(196, 196, 196, 0.5);
   border-radius: 69px;
@@ -36,8 +36,8 @@
 }
 
 .car_two {
-  width: 305.01px;
-  height: 305.01px; /* устанавливаем высоту блока */
+  width: 350px;
+  height: 270px; /* устанавливаем высоту блока */
   background: #000000;
   box-shadow: 0px 0px 30px 2px rgba(196, 196, 196, 0.5);
   border-radius: 69px;
@@ -50,4 +50,26 @@
   width: 330px;
   height: 280px;
   padding-top: 20px;
+}
+
+@media (max-width: 1440px) {
+  .car_one {
+    width: 233px;
+    height: 233px;
+  }
+
+  .car_two {
+    width: 233px;
+    height: 233px;
+  }
+
+  .car-header {
+    width: 233px;
+    height: 233px;
+  }
+
+  .car {
+    width: 250px;
+    height: 180px;
+  }
 }

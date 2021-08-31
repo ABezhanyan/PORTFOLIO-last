@@ -14,3 +14,26 @@
   line-height: 110px;
   color: #323232;
 }
+
+@media (max-width: 1440px) {
+  .we-are {
+    padding-top: 150px;
+    margin-left: 270px;
+  }
+
+  .we-are-header {
+    padding-bottom: 90px;
+  }
+
+  .we-are-header__text {
+    font-size: 70px;
+    line-height: 85px;
+  }
+
+  .we-are-icon {
+    width: 375px;
+    height: 383px;
+    margin-left: 20px;
+  }
+
+}

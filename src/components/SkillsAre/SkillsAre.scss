@@ -33,6 +33,43 @@
 .skills-are-text {
   font-family: Montserrat;
   font-weight: bold;
-  font-size: 90px;
-  line-height: 110px;
+  font-size: 70px;
+  line-height: 85px;
+}
+
+@media (max-width: 1440px) {
+  .skills-are-container {
+    width: 100%;
+    height: 735px;
+    background: linear-gradient(to top, #0828B6 50%, #F3F3F3 50%);
+  }
+
+  .pop {
+    padding-top: 100px;
+    max-width: 310px;
+    max-height: 310px;
+  }
+
+  .img-sl {
+    align-items: center;
+    width: 310px;
+    height: 310px;
+  }
+
+
+  .swiper-slide img {
+    display: block;
+  }
+
+  .skills-are {
+    width: 80%;
+    margin: auto;
+  }
+
+  .skills-are-text {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 110px;
+  }
 }

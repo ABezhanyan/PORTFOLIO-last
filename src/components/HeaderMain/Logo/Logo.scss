@@ -1,9 +1,21 @@
 .logo {
     position: absolute;
-    padding-top: 207px;
+    margin-top: 207px;
 }
 
 .logo-img {
     width: 413px;
     height: 132px;
+}
+
+@media (max-width: 1440px) {
+    .logo-img {
+        width: 295px;
+        height: 94px;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 180px;
+    }
 }

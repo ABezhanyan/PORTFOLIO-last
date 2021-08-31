@@ -1,0 +1,73 @@
+.contact-container {
+  height: 450px;
+  background: black;
+  margin-top: 150px;
+  border-radius: 50px 50px 0px 0px;
+}
+
+.contact-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 85px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 40px;
+
+}
+
+.contact-border {
+  border-bottom: #0828B6 6px solid;
+}
+
+.contact-button {
+  background: #0828B6;
+  border-radius: 50px 50px 50px 50px;
+  width: 300px;
+  height: 120px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 98px;
+  text-align: center;
+  color: #FFFFFF;
+  align-items: center;
+  margin-left: 795px;
+  margin-top: 50px;
+}
+
+button {
+
+  border: white;
+
+  /* отображаем курсор в виде руки при наведении; некоторые
+  считают, что необходимо оставлять стрелочный вид для кнопок */
+  cursor: pointer;
+}
+
+.social-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.nav-social-contact {
+  display: flex;
+  margin: auto;
+}
+
+.nav-item-social-contact:not(:last-child) {
+  margin-right: 130px;
+}
+
+.q {
+  width: 50px;
+}
+
+@media (max-width: 1440px) {
+  .contact-button {
+    margin-left: 570px;
+  }
+
+}

@@ -11,7 +11,7 @@
 }
 
 .burger-container {
-  margin-top: 150px;
+  margin-top: 100px;
   height: auto;
   margin-right: 30px;
   margin-left: 10px;
@@ -25,13 +25,13 @@
   line-height: 110px;
   text-align: center;
   left: 1390.02px;
-  top: 3820px;
+  top: 3770px;
   color: #323232;
 }
 
 .burger_one {
-  width : 555px; /* устанавливаем ширину блока */
-  height : 555px; /* устанавливаем высоту блока */
+  width : 500px; /* устанавливаем ширину блока */
+  height : 430px; /* устанавливаем высоту блока */
   background: #000000;
   box-shadow: 0px 0px 30px 2px rgba(196, 196, 196, 0.5);
   border-radius: 69px;
@@ -48,8 +48,8 @@
 }
 
 .burger_two {
-  width : 555px; /* устанавливаем ширину блока */
-  height : 555px; /* устанавливаем высоту блока */
+  width : 500px; /* устанавливаем ширину блока */
+  height : 430px; /* устанавливаем высоту блока */
   background: #000000;
   box-shadow: 0px 0px 30px 2px rgba(196, 196, 196, 0.5);
   border-radius: 69px;
@@ -62,7 +62,7 @@
   display: block;
   margin: auto;
   height: auto;
-  padding-top: 110px;
+  padding-top: 50px;
   justify-content: center;
 }
 
@@ -74,24 +74,113 @@
 
 .W {
   position: absolute;
-  left: 805px;
-  top: 3820px;
+  left: 860px;
+  top: 3730px;
+}
+
+.W-icon {
+  width: 230px;
+  height: 200px;
 }
 
 .O {
   position: absolute;
-  left: 1156px;
-  top: 3830px;
+  left: 1150px;
+  top: 3750px;
+}
+
+.O-icon {
+  width: 190px;
+  height: 190px;
 }
 
 .R {
   position: absolute;
   left: 1215px;
-  top: 4100px;
+  top: 3930px;
+}
+
+.R-icon {
+  width: 190px;
+  height: 190px;
 }
 
 .K {
   position: absolute;
   left: 1452px;
-  top: 3958px;
+  top: 3890px;
+}
+
+.K-icon {
+  width: 190px;
+  height: 190px;
+}
+
+@media (max-width: 1440px) {
+  .burger_one {
+    width: 400px;
+    height: 400px;
+  }
+
+  .burger_two {
+    width: 400px;
+    height: 400px;
+  }
+
+  .burger {
+    height: 320px;
+    width: 380px;
+  }
+
+  .W {
+    position: absolute;
+    left: 615px;
+    top: 2670px;
+  }
+
+  .W-icon {
+    width: 220px;
+    height: 220px;
+  }
+
+  .O {
+    position: absolute;
+    left: 863.99px;
+    top: 2700px;
+  }
+
+  .O-icon {
+    width: 176.9px;
+    height: 183.7px;
+  }
+
+  .R {
+    position: absolute;
+    left: 900px;
+    top: 2880px;
+  }
+
+  .R-icon {
+    width: 160px;
+    height: 160px;
+  }
+
+  .K {
+    position: absolute;
+    left: 1070px;
+    top: 2840px;
+  }
+
+  .K-icon {
+    width: 170px;
+    height: 170px;
+  }
+
+  .work-text {
+    left: 1040.89px;
+    top: 2720px;
+    font-size: 70px;
+    line-height: 85px;
+  }
+
 }

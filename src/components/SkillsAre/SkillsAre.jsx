@@ -33,7 +33,7 @@ SwiperCore.use([EffectCoverflow]);
 
 const SkillsAre = () => {
     return (
-        <div className="skills-are-container">
+        <div className="skills-are-container" id="skills">
             <div className="skills-are">
                 <h2 className="skills-are-text">Skills are</h2>
             </div>
