@@ -19,3 +19,16 @@
         margin-top: 180px;
     }
 }
+
+@media (max-width: 480px) {
+    .logo-img {
+        width: 179px;
+        height: 58px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+    .logo {
+        margin-top: auto;
+    }
+}

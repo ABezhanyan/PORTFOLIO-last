@@ -14,6 +14,8 @@ import BurgerSlider from "./components/WorkMain/BurgerSlider/BurgerSlider";
 import {Route} from "react-router";
 import {BrowserRouter} from "react-router-dom";
 import Contact from "./components/ContactMain/Contact/Contact";
+import WeAreMobile from "./components/WeAreMain/WeAreMobile/WeAreMobile";
+import HeaderMobile from "./components/HeaderMain/Header/HeaderMobile";
 
 const App = () => {
     return (
@@ -24,6 +26,7 @@ const App = () => {
                         <NavBar />
                         <Social />
                         <Logo />
+                        <HeaderMobile />
                         <Header />
                         <Scroll />
                     </div>
@@ -31,6 +34,9 @@ const App = () => {
                 <div className="we-are-container">
                     <WeAre />
                     <WeAreText />
+                </div>
+                <div className="WeAreMobile-container">
+                    <WeAreMobile />
                 </div>
                 <div className="skills-are-container">
                     <SkillsAre />

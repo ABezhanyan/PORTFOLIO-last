@@ -73,3 +73,9 @@
     line-height: 110px;
   }
 }
+
+@media (max-width: 480px) {
+  .skills-are-container {
+    display: none;
+  }
+}

@@ -12,5 +12,17 @@
   .scroll {
     margin-top: 700px;
   }
+}
 
+@media (max-width: 480px) {
+  .scroll-img {
+    width: 51px;
+    height: 51px;
+  }
+
+  .scroll {
+    margin-top: 220px;
+    margin-left: 180px;
+
+  }
 }

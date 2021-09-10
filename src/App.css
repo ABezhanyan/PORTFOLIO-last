@@ -37,6 +37,10 @@ body {
   background-position: center;
 }
 
+.WeAreMobile-container {
+  display: none;
+}
+
 .work-container {
   height: auto;
   width: 80%;
@@ -63,6 +67,10 @@ body {
     height: 828px;
   }
 
+  .WeAreMobile-container {
+    display: none;
+  }
+
   .we-are-container {
     display: flex;
     width: 100%;
@@ -73,6 +81,31 @@ body {
     background-repeat: no-repeat;
     background-position: center;
   }
+}
+
+@media (max-width: 480px) {
+  .container-main {
+    background-image: url("/src/imgResume/bg.png");
+    background-repeat: no-repeat;
+  }
+
+  .WeAreMobile-container {
+    background-color: #F3F3F3;
+    background-position: center;
+    background-image: url("/src/imgResume/blue.png");
+    background-repeat: no-repeat;
+  }
+
+  .header-container {
+    display: inline-block;
+    justify-content: center;
+    height: 746px;
+  }
+
+  .we-are-container {
+    display: none;
+  }
+
 }
 
 

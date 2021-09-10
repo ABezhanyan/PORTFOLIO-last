@@ -71,3 +71,9 @@ button {
   }
 
 }
+
+@media (max-width: 480px) {
+  .c-contact {
+    display: none;
+  }
+}

@@ -53,6 +53,10 @@ ul {
     width: 100%;
 }
 
+.burger-block {
+    display: none;
+}
+
 @media (max-width: 1440px) {
     .nav-item {
         font-size: 32px;
@@ -66,6 +70,30 @@ ul {
     .nav-list {
         padding-top: 71px;
     }
+
+    .burger-block {
+        display: none;
+    }
 }
+
+@media (max-width: 480px) {
+    .nav-item {
+        display: none;
+    }
+
+    .burger-block {
+        display: none;
+    }
+
+    .burger-san {
+        display: none;
+    }
+
+    .nav-list {
+        padding-top: 20px;
+    }
+
+}
+
 
 

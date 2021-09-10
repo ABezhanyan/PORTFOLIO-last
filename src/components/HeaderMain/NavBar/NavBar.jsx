@@ -2,6 +2,7 @@ import logo from '../../../img/logo.svg';
 import './NavBar.scss';
 import { Link, Element } from "react-scroll";
 import * as Scroll from "react-scroll";
+import Burger from '../../../imgResume/sandwich.svg'
 
 
 const NavBar = () => {
@@ -60,6 +61,9 @@ const NavBar = () => {
                         </Link>
                     </li>
                 </ul>
+                <button className="burger-block">
+                    <img src={Burger} alt="" className="burger-san"/>
+                </button>
             </nav>
 )}
 

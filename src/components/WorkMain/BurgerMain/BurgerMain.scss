@@ -182,5 +182,10 @@
     font-size: 70px;
     line-height: 85px;
   }
+}
 
+@media (max-width: 480px) {
+  .grid {
+    display: none;
+  }
 }

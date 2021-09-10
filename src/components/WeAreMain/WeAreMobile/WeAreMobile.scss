@@ -1,0 +1,62 @@
+@media (max-width: 480px) {
+  .WeAreMobile-container {
+    display: block;
+  }
+
+  .WeAreMobile {
+    height: 635px;
+  }
+
+  .we-are-mobile-header {
+    padding-top: 100px;
+    padding-left: 30px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+  }
+
+  .we-are-mobile-text {
+    padding-top: 63px;
+    padding-right: 130px;
+    padding-left: 44px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .we-are-mobile-work {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 59px;
+    line-height: 79px;
+    margin-left: 30px;
+    margin-top: 40px;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .we-are-mobile-contact {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 69px;
+    margin-left: 70px;
+
+    text-decoration: none;
+    color: #000000;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+  }
+
+
+
+}
